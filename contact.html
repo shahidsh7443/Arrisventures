@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact || ArrisTechnologies </title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-responsive.css">
+
+<!-- My Styles -->
+<link rel="stylesheet" type="text/css" href="css/clients.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-itouch-icon" href="img/favicon.png">
+<style>
+textarea{resize:none; width:85%; height:200px;}
+iframe{padding-right:2em; margin-right:1em;}
+h4{text-align:center; border-bottom:3px double #00b8bb; border-top:3px double #00b8bb; padding:1em;}
+#distances{clear:left; margin-top:4em;}
+table tr td{padding:1em;}
+</style>
+</head>
+
+<body>
+	<!-- Container for all the Content -->
+	<div class="container-fluid">
+
+	<!-- Header Row -->
+	<div class="row-fluid">
+        <div class="span3 offset1"><!--Logo content-->
+          <img id="logo" src="img/av.png" alt="ArrisTechnologies Logo" />
+        </div>
+        <div class="span7"><!--Navigation-->
+          <ul id="nav">
+          	<li class="selected"><a href="index.html" class="tooltip1">Home<span class="hidden-phone tt">The Genensis</span></a></li>
+            <li class="dropdown-submenu" id="group"><a href="the_group.html" class="tooltip1"><span>The Group</span><span class="hidden-phone tt">Our Intent</span></a>
+            	<ul class="dropdown-menu hidden-phone">
+                	<li><a href="the_group.html#history">History</a></li>
+                    <li><a href="the_group.html#leadership">Leadership</a></li>
+                    <li><a href="the_group.html#initiatives">Initiatives</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="advantage.html" class="tooltip1"><span>Advantage</span><span class="hidden-phone tt">Our Competence</span></a>
+            	<ul class="dropdown-menu hidden-phone" id="adv_sub">
+                	<li><a href="advantage.html#philosophy">Philosophy</a></li>
+            		<li><a href="advantage.html#vision">Vision</a></li>
+            		<li><a href="advantage.html#mission">Mission</a></li>
+            		<li><a href="advantage.html#innovation">Innovation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="ventures.html" class="tooltip1"><span>Ventures</span><span class="hidden-phone tt">The Powerhouses</span></a>
+            	<ul class="dropdown-menu hidden-phone">
+                	<li><a href="ventures.html#technologies">ArrisTechnologies</a></li>
+                	<li><a href="ventures.html#training">Arris Trraining</a></li>
+                	<li><a href="ventures.html#welness">Arris Wellness</a></li>
+                	<li><a href="ventures.html#foundation">Arris Fooundation</a></li>
+                </ul>
+            </li>
+            <li><a href="csr.html" class="tooltip1">CSR<span class="hidden-phone tt">Fostering Love</span></a></li>
+            <li class="dropdown-submenu"><a href="clients.html" class="tooltip1"><span>Clients</span><span class="hidden-phone tt">Our Pride</span></a>
+            	<ul class="dropdown-menu hidden-phone">
+            		<li><a href="clients.html#partialList">Partial List</a></li>
+            		<li><a href="clients.html#testimonials">Testimonials</a></li>
+            	</ul>
+            </li>
+            <li><a href="careers.php" class="tooltip1">Careers<span class="hidden-phone tt">For Progress</span></a></li>
+            <li ><a href="contact.php" class="tooltip1">Contact<span class="hidden-phone tt">Get Started</span></a></li>
+          </ul>
+        </div>
+  	</div><!-- end of header row -->
+
+  <!-- *************** Main Content Area ******************** -->
+
+    <!-- Content -->
+  <div class="row-fluid">
+        <div class="text_content">
+          <!--Text Content-->
+          <h1>Contact</h1>
+			<div class="row-fluid" id="splash_section">
+        <div class="span7 offset2">
+          <!--First Image-->
+          <h1 id="form_title">Contact Us</h1>
+               <div id='contact_form'>
+              <form method="post" action="mailsend.php">
+              	<div id="success_msg"></div>
+              	<label> Name</label>
+   				<input type="text" name="name" id="name"/><br/>
+                <label>Location </label>
+   				<input type="text" name="location" id="location"/><br/>
+   				<label>Mobile</label>
+   				<input type="text" name="mobile" id="mobile"/><br/>
+   				<label>Email Id</label>
+   				<input type="text" name="email" id="email"/><br/>
+   				<label>Message</label>
+                <textarea id="msg" name="msg"></textarea>
+                <input type='submit' value='Send' onclick="return validation();"/>
+              </form>
+          </div><!-- end of 'contact_form' -->
+        </div>
+  	</div>
+
+            <div id="address">
+            	<h3>Address</h3>
+                <div>
+
+                <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=+9th+Cross,+NR+Colony,+Basavanagudi,+Bangalore,+Karnataka,+India+&amp;aq=&amp;sll=12.936631,77.566768&amp;sspn=0.001399,0.002642&amp;ie=UTF8&amp;hq=&amp;hnear=9th+Cross+Rd,+NR+Colony,+Basavanagudi,+Bangalore,+Karnataka,+India&amp;t=m&amp;z=14&amp;ll=12.936537,77.566486" target="_blank" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
+                <!--width="425" height="350"-->
+                <iframe id="gmap" style="float:left" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=+9th+Cross,+NR+Colony,+Basavanagudi,+Bangalore,+Karnataka,+India+&amp;aq=&amp;sll=12.936631,77.566768&amp;sspn=0.001399,0.002642&amp;ie=UTF8&amp;hq=&amp;hnear=9th+Cross+Rd,+NR+Colony,+Basavanagudi,+Bangalore,+Karnataka,+India&amp;t=m&amp;z=14&amp;ll=12.936537,77.566486&amp;output=embed"></iframe><br />
+                <p id="add">Corporate Office: # 25, Old 22/1, 9th Cross, <br />
+                5th Main, N R Colony, Bangalore – 560019. <br />
+                Karnataka. India<br />
+                Contact Person 	: Mr. Gaurav	<br />
+                Office No 		: 917353775774<br />
+                Email 			: info@arristeck.com</p>
+                </div>
+                <div>
+
+                </div>
+            </div><!--END of current address section-->
+
+            <p>We thank you for visiting ArrisVentures. We would like to hear from you about our services, career opportunities, partnerships or anything else you wish to get in touch with. Fill out the following form to tell us about your views, comments, suggestions, complaints and we ensure that we will get back to you within 24 hours.</p>
+
+            <div id="distances">
+            <p>ArrisVentures is located in the heart of the city and is well connected to the prominent places across Bangalore. The following table shows the distances from our premises to major places and destinations.</p>
+			<!--<div id="dist">
+            <div class="row-fluid">
+            	<div class="span3 offset2">Bengaluru International Airport</div>
+                <div class="span1">40.8Km</div>
+                <div class="span3">ITPL, Whitefield</div>
+                <div class="span1">26.3Km</div>
+            </div>
+
+            <div class="row-fluid">
+            	<div class="span3 offset2">Majestic Railway Station</div>
+                <div class="span1">5.7Km</div>
+                <div class="span3">Electronic City</div>
+                <div class="span1">18.8Km</div>
+            </div>
+
+            <div class="row-fluid">
+            	<div class="span3 offset2">M G Road</div>
+                <div class="span1">7.7Km</div>
+                <div class="span3">Cantonment Railway Station</div>
+                <div class="span1">9Km</div>
+            </div>
+            </div>-->
+            <table class="table-bordered" align="center" border="1">
+            <tr>
+            	<td>Bengaluru International Airport</td>
+                <td>40.8Km</td>
+            </tr>
+            <tr>
+            	<td>Majestic Railway Station</td>
+                <td>5.7Km</td>
+            </tr>
+            <tr>
+            	<td>M G Road</td>
+                <td>7.7Km</td>
+            </tr>
+            <tr>
+            	<td>ITPL, Whitefield</td>
+                <td>26.3Km</td>
+            </tr>
+            <tr>
+                <td>Electronic City</td>
+                <td>18.8Km</td>
+            </tr>
+            <tr>
+                <td>Cantonment Railway Station</td>
+                <td>9Km</td>
+            </tr>
+            </table>
+        </div>
+  	</div><!-- end of content -->
+    <!-- ***************** End of Main Content Area ************************** -->
+
+
+  <!-- Clients -->
+  <div class="row-fluid" id="clients_strip">
+  		<div class="span2 hidden-phone"></div>
+        <div class="span9">
+            <div id='carousel_container'>
+              <div id='carousel_inner'>
+                <ul id='carousel_ul'>
+                    <li><a href='#'><img src="img/clients/separate page/abec.jpg"/></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/Assystem.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/Bizsprout.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/BlueStar.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/CampusSutra.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/EvolvingSystems.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/GururajAssociates.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/iAccy.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/InnovaDeisel.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/IQStudios.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/Kritnu.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/MeenalHotel.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/Ojas.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/Orderbook.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/PMS.jpg"/></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/Sparket.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/TeamGroup.jpg" /></a></li>
+                    <li><a href='#'><img src="img/clients/separate page/theorem.jpg"/></a></li>
+                </ul>
+              </div>
+              </div>
+    </div>
+        <!--<div class="span1">
+         	<img src="img/clients/002_1.jpg" alt="1" />
+        </div>
+        <div class="span1">
+         	<img src="img/clients/002_2.jpg" alt="2" />
+        </div>
+        <div class="span1">
+         	<img src="img/clients/002_3.jpg" alt="3" />
+        </div>
+        <div class="span1">
+         	<img src="img/clients/002_4.jpg" alt="4" />
+        </div>
+        <div class="span1">
+         	<img src="img/clients/002_5.jpg" alt="5" />
+        </div>
+        <div class="span1">
+         	<img src="img/clients/002_6.jpg" alt="6" />
+        </div>-->
+  	</div><!-- end of Clients Strip -->
+
+	<!-- Bottom Navigation -->
+    <div class="row-fluid" id="bottom_nav">
+        <div class="span1 offset1">
+        	<a href="index.html"><span class="bottom_nav_bold">Home</span></a>
+        </div>
+        <div class="span1">
+        	<a href="the_group.html"><span class="bottom_nav_bold">The Group</a></span>
+            <ul>
+            	<a href="the_group.html#history"><li>History</li></a>
+                <a href="the_group.html#leadership"><li>Leadership</li></a>
+                <a href="the_group.html#initiatives"><li>Initiatives</li></a>
+            </ul>
+        </div>
+        <div class="span1">
+        	<a href="advantage.html"><span class="bottom_nav_bold">Advantage</span></a>
+        	<ul>
+            	<a href="advantage.html#philosophy"><li>Philosophy</li></a>
+            	<a href="advantage.html#vision"><li>Vision</li></a>
+            	<a href="advantage.html#mission"><li>Mission</li></a>
+            	<a href="advantage.html#innovation"><li>Innovation</li></a>
+            </ul>
+        </div>
+        <div class="span1">
+        	<a href="ventures.html"><span class="bottom_nav_bold">Ventures</span></a>
+            <ul>
+            	<a href="ventures.html#technologies"><li>ArrisTechnologies</li></a>
+                <a href="ventures.html#training"><li>Arris Trraining</li></a>
+                <a href="ventures.html#welness"><li>Arris Wellness</li></a>
+                <a href="ventures.html#foundation"><li>Arris Fooundation</li></a>
+            </ul>
+        </div>
+        <div class="span1">
+        	<a href="csr.html"><span class="bottom_nav_bold">CSR</span></a>
+        </div>
+        <div class="span1">
+        	<a href="clients.html"><span class="bottom_nav_bold">Clients</span></a>
+        	<ul>
+            	<a href="clients.html#partialList"><li>Partial List</li></a>
+            	<a href="clients.html#testimonials"><li>Testimonials</li></a>
+            </ul>
+        </div>
+        <div class="span1">
+        	<a href="careers.html"><span class="bottom_nav_bold">Careers</span></a>
+        </div>
+        <div class="span1">
+        	<a href="contact.html"><span class="bottom_nav_bold">Contact</span></a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="span2 offset1" id="social_icons">
+        <ul>
+        	<li class="bottom_nav_bold" style="color:#000;">&nbsp;&nbsp;Social Network</li>
+            <li><a href="http://in.linkedin.com/pub/arvind-jain/61/448/9ab" target="_blank"><img class='social_icon' src="img/social_icons/linked_in.png" alt="LinkedIn" /> &nbsp;&nbsp;Linked In</a></li>
+            <!--<img class='social_icon' src="img/social_icons/google.png" alt="Google" /> Google-->
+            <li><a href="http://www.facebook.com/profile.php?id=100005986120650" target="_blank"><img class='social_icon' src="img/social_icons/facebook.png" alt="Facebook" /> Facebook</a></li>
+        	<li><a href="https://twitter.com/6Arvind" target="_blank">
+            <img class='social_icon' src="img/social_icons/twitter.png" alt="Twitter" /> &nbsp;&nbsp;&nbsp;&nbsp;Twitter</a></li>
+        </ul>
+        </div>
+  	</div><!-- End of Bottom Navigation -->
+
+    <!-- Footer -->
+    <div class="row-fluid" id="footer">
+    	<div class="span3" id="copyright">
+        	<!-- copyright -->
+            All rights reserved. Copyright &copy; 2018 <a href="http://triviumcreations.com" target="blank">IQ Studios</a>
+        </div>
+        <div class="span1 offset6">
+        	<!-- Disclaimer -->
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
+        <div class="span1">
+        	<!-- Privacy Policy -->
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+
+    </div><!-- End of Footer -->
+
+    </div><!-- Container End -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/validations.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+    #carousel {
+        width:255px;
+        height:284px;    
+        margin:0 auto;
+		position:relative;
+		border:1px solid #f00;
+    }
+	#carousel1{
+		width:625px;
+		height:286px;
+        margin:0 auto;
+		position:relative;
+		border:1px solid #f00;
+	}
+    #slides {
+        overflow:hidden;
+        /* fix ie overflow issue */
+        position:relative;
+        width:250px;
+        height:284px;
+        /*border:1px solid #ccc;*/
+    }
+	#slides1{
+		overflow:hidden;
+		position:relative;
+		width:620px;
+		height:286px;}
+    /* remove the list styles, width : item width * total items */    
+    #slides ul {
+        position:relative;
+        left:0;
+        top:0;
+        list-style:none;
+        margin:0;
+        padding:0;    
+        width:1000px;            
+    }
+	#slides1 ul{
+		position:relative;
+        left:0;
+        top:0;
+        list-style:none;
+        margin:0;
+        padding:0;    
+        width:2480px;  }
+    /* width of the item, in this case I put 250x250x gif */
+    #slides li {
+        width:250px;
+        height:250px;    
+        float:left;
+    }   
+	#slides1 li {
+		 width:620px;
+        height:250px;    
+        float:left;
+	}
+    .clear {clear:both}
+	#slides1 li img{
+		width:200%;}
+.slider8 .bx-wrapper .bx-viewport{ left:-5px;}
+.venture_slider{margin-left:4px; text-align:right;}
